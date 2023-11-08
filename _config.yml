@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fomalhaut🥝
+title: 淞小菜同学🐿
 subtitle: 
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+keywords: 'Java,Python,博客'
+author: 淞小菜同学🐿
 language: zh-CN
 timezone: ''
 
@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:  # 这里写上你的Github地址
+    repository: https://github.com/songxiaoc/songxiaoc.github.io.git # 这里写上你的Github地址
     branch: main
   # - type: baidu_url_submitter
   # - type: git
