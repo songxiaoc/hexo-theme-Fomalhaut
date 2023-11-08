@@ -24,6 +24,7 @@
   --hltools-bg: #1c1c1c;
   /* 代码框背景色 */
   --hl-bg: #282c34;
+  text-decoration: none;
 }
 
 /* 滚动条样式 */
@@ -1199,13 +1200,15 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  /*background-image: url(https://sourcebucket.s3.bitiful.net/img/springBg.png);*/
+  background-image: url(/assets/img/springBg.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  /*background-image: url(https://sourcebucket.s3.bitiful.net/img/aurora.webp);*/
+  background-image: url(/assets/img/aurora.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -1271,7 +1274,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://myimg.songic.top/avatar/aniya01.jpg)
     no-repeat center center;
   background-size: cover;
 }
@@ -3011,4 +3014,8 @@ hr:before {
 .github-badge img:hover {
   scale: 1.05;
   transition: all 0.3s ease-in-out;
+}
+
+#a_rm_deco {
+  text-decoration: none;
 }

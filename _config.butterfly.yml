@@ -113,7 +113,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: https://myimg.songic.top/avatar/aniya01.jpg
   effect: false
 
 # Disable all banner image
@@ -157,6 +157,12 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://source.fomal.cc/img/default_cover_14.webp
+    - https://w.wallhaven.cc/full/85/wallhaven-85852j.jpg
+    - https://w.wallhaven.cc/full/lq/wallhaven-lq7vor.png
+    - https://w.wallhaven.cc/full/1p/wallhaven-1p3729.png
+    - https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
+    - https://w.wallhaven.cc/full/6q/wallhaven-6qzorw.png
+    - https://w.wallhaven.cc/full/mp/wallhaven-mpm1o8.png
     # ...
 
 # A simple 404 page
@@ -449,6 +455,12 @@ footer:
     enable: true
     since: 2022
   custom_text:
+#    <div style="text-align:center;">
+#      <a href="https://beian.miit.gov.cn/" target="_blank" id="a_rm_deco">闽ICP备2022010416号</a>
+#      <br />
+#      <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="color:#EEEEEE">本站由&nbsp;
+#        <span><img src='/assets/upyun.png' style="height:20px" /></span>&nbsp;提供CDN加速</a>
+#    </div>
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -702,10 +714,11 @@ aside:
       enable: true
       icon: # fab fa-github
       text: 前往小窝
-      link: https://github.com/fomalhaut1998
+      link: https://github.com/songxiaoc
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.fomal.cc" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cc</font></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+#    content: <center><b>--- 主域名 ---<br><a href="https://www.fomal.cc" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cc</font></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+    content: <center><b>网站正在搭建中...</b></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
@@ -931,6 +944,7 @@ inject:
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
     - <script defer src="/js/fomal.js"></script> # 主模块js
+    - <div style="text-align:center;"><a href="https://beian.miit.gov.cn/" target="_blank" style="color:#EEEEEE">闽ICP备2022010416号</a><br /><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="color:#EEEEEE">本站由&nbsp;<span><img src='/assets/upyun.png' style="height:20px" /></span>&nbsp;提供CDN加速</a></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work

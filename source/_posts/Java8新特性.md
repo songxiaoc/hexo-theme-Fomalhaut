@@ -4,6 +4,7 @@ tag:
   - 编程学习
   - 后端
 abbrlink: 397c083a
+cover: https://w.wallhaven.cc/full/mp/wallhaven-mpm1o8.png
 ---
 
 # 函数式接口
