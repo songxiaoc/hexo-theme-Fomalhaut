@@ -30,3 +30,11 @@ hexo d
 ![](./imgs/开启HTTPS_01.png)
 ![](./imgs/开启HTTPS_02.png)
 
+
+这个报错没关系，就是一个插件加载失败而已，不影响使用
+```shell
+INFO  Validating config
+ERROR Plugin load failed: hexo-magnet-fomal
+TypeError: Cannot read properties of undefined (reading 'priority')
+
+```
